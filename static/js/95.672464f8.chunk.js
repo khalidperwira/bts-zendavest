@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbts=self.webpackChunkbts||[]).push([[95],{95:function(e,n,r){r.r(n),r.d(n,{default:function(){return a}});r(791);var t=r(184);function a(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("div",{className:"footer",children:(0,t.jsx)("p",{children:(0,t.jsx)("a",{href:"#",rel:"noreferrer",target:"_blank",children:"Download Buku Tahunan"})})})})}}}]);
+//# sourceMappingURL=95.672464f8.chunk.js.map

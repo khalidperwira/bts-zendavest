@@ -1,5 +1,6 @@
 import React, {Suspense} from 'react'
 import './App.css'
+import Loading from "./Loading"
 
 export default function App() {
   const Book = React.lazy(()=>import("./Book"));
@@ -7,7 +8,7 @@ export default function App() {
   return (
     <>
       <main>
-        <Suspense fallback={<div>Loading. . .</div>}>
+        <Suspense fallback={<Loading></Loading>}>
           <Book></Book>
           <Download></Download>
         </Suspense>

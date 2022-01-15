@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bts-zendavest/static/css/main.c08d686b.css",
-    "main.js": "/bts-zendavest/static/js/main.81b1a1f5.js",
+    "main.css": "/bts-zendavest/static/css/main.d5263448.css",
+    "main.js": "/bts-zendavest/static/js/main.11d2dffb.js",
     "static/js/779.939532f2.chunk.js": "/bts-zendavest/static/js/779.939532f2.chunk.js",
     "static/js/95.672464f8.chunk.js": "/bts-zendavest/static/js/95.672464f8.chunk.js",
     "static/js/787.9cf04da9.chunk.js": "/bts-zendavest/static/js/787.9cf04da9.chunk.js",
     "index.html": "/bts-zendavest/index.html",
-    "main.c08d686b.css.map": "/bts-zendavest/static/css/main.c08d686b.css.map",
-    "main.81b1a1f5.js.map": "/bts-zendavest/static/js/main.81b1a1f5.js.map",
+    "main.d5263448.css.map": "/bts-zendavest/static/css/main.d5263448.css.map",
+    "main.11d2dffb.js.map": "/bts-zendavest/static/js/main.11d2dffb.js.map",
     "779.939532f2.chunk.js.map": "/bts-zendavest/static/js/779.939532f2.chunk.js.map",
     "95.672464f8.chunk.js.map": "/bts-zendavest/static/js/95.672464f8.chunk.js.map",
     "787.9cf04da9.chunk.js.map": "/bts-zendavest/static/js/787.9cf04da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c08d686b.css",
-    "static/js/main.81b1a1f5.js"
+    "static/css/main.d5263448.css",
+    "static/js/main.11d2dffb.js"
   ]
 }

@@ -7,7 +7,7 @@ export default function Book() {
   const [nextPointer, setNextPointer] = useState(2);
 
   const PageFront = ({ pointer = 1, prevPointer = 0, nextPointer = 2 }) => {
-
+    const env = "https://raw.githubusercontent.com/khalidperwira/bts-zendavest/main/src/assets/";
     const flipDegree = 179;
 
     // onClick
@@ -100,12 +100,12 @@ export default function Book() {
     return (
       <>
         <div className="page" >
-          <div className="section left" style={{ backgroundImage: 'url(https://bts-typescript.khalidperwira.repl.co/src/assets/' + pointer + '.webp)' }} onClick={onClickLeft} onAnimationEnd={onAnimationEndLeft} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}
+          <div className="section left" style={{ backgroundImage: 'url('+ env + pointer + '.webp)' }} onClick={onClickLeft} onAnimationEnd={onAnimationEndLeft} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEndLeft}>
           </div>
           <div className="section right" onClick={onClickRight} onAnimationEnd={onAnimationEndRight} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}onTouchEnd={handleTouchEndRight}>
-            <div className="frontfaceright" style={{ backgroundImage: 'url(https://bts-typescript.khalidperwira.repl.co/src/assets/' + pointer + '.webp)' }}></div>
-            <div className="backfaceright" style={{ backgroundImage: 'url(https://bts-typescript.khalidperwira.repl.co/src/assets/' + nextPointer + '.webp)' }}></div>
+            <div className="frontfaceright" style={{ backgroundImage: 'url('+ env + pointer + '.webp)' }}></div>
+            <div className="backfaceright" style={{ backgroundImage: 'url('+ env + nextPointer + '.webp)' }}></div>
           </div>
         </div>
       </>
